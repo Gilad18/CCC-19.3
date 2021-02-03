@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.grid {
+    width: 80%;
+    height: 60%;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-areas: 
+    'box1	box1	box2	box2	box2	box3	box4	box4'
+    'box1	box1	box2	box2	box2	box3	box4	box4'
+    'box5	box5	box2	box2	box2	box8	box8	box9'
+    'box5	box5	box6	box6	box7	box8	box8	box9'
+    'box5	box5	box6	box6	box10	box10	box10	box9'
+    'box11	box12	box12	box13	box10	box10	box10	box14'
+    'box11	box12	box12	box13	box10	box10	box10	box14'
+    ;
+}
+
+    .grid > div {
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+    
+    .box1 {
+        grid-area: box1;
+        background-image: url('../24.4/images/gal-1.jpeg');
+    }
+
+    .box2 {
+        grid-area: box2;
+        background-image: url('../24.4/images/gal-2.jpeg');
+    }
+
+    .box3 {
+        grid-area: box3;
+        background-image: url('../24.4/images/gal-3.jpeg');
+    }
+
+    .box4 {
+        grid-area: box4;
+        background-image: url('../24.4/images/gal-4.jpeg');
+    }
+
+    .box5 {
+        grid-area: box5;
+        background-image: url('../24.4/images/gal-5.jpeg');
+    }
+    .box6 {
+        grid-area: box6;
+        background-image: url('../24.4/images/gal-6.jpeg');
+    }
+
+    .box7 {
+        grid-area: box7;
+        background-image: url('../24.4/images/gal-7.jpeg');
+    }
+
+    .box8 {
+        grid-area: box8;
+        background-image: url('../24.4/images/gal-8.jpeg');
+    }
+
+    .box9 {
+        grid-area: box9;
+        background-image: url('../24.4/images/gal-9.jpeg');
+    }
+
+    .box10 {
+        grid-area: box10;
+        background-image: url('../24.4/images/gal-10.jpeg');
+    }
+    
+    .box11 {
+        grid-area: box11;
+        background-image: url('../24.4/images/gal-11.jpeg');
+    }
+
+    .box12 {
+        grid-area: box12;
+        background-image: url('../24.4/images/gal-12.jpeg');
+    }
+
+    .box13 {
+        grid-area: box13;
+        background-image: url('../24.4/images/gal-13.jpeg');
+    }
+
+    .box14 {
+        grid-area: box14;
+        background-image: url('../24.4/images/gal-14.jpeg');
+    }
